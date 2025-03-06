@@ -15,11 +15,9 @@ The project is divided into two main tasks:
 # Dataset Enrichment Approach
 
 To answer the first question, we need to join the two excel tables. The problem is that there is no common factor between the two tables except for the images behind each URL. 
-In order to correctly match the logo between the two tables, we need to use a python code that will put an hash record for each image to generate unique identifiers.
+In order to correctly match the logo between the two tables, we need to use a python code that will assign an hash record, to generate unique identifiers for each image and then compare the hash record with each images from the external table. 
 
-
-
-I implemented a Jupyter notebook (Final.ipynb) that processes the dataset as follows:
+I implemented a first Jupyter notebook (Final.ipynb) that processes the dataset as follows:
 
 Image Hashing: Each image URL was hashed using a perceptual hashing algorithm to generate unique identifiers.
 
