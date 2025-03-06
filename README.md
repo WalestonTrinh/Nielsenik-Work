@@ -9,6 +9,7 @@ This repository contains my solution for the Nielsenik Technical Test
 The project is divided into two main tasks:
 
 Enriching the dataset by adding app titles and editor names.
+
 Analyzing the impact of Covid confinement on in-app purchases.
 
 # Dataset Enrichment Approach
